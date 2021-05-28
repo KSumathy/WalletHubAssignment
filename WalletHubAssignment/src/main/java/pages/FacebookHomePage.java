@@ -15,7 +15,7 @@ public class FacebookHomePage extends BaseClass {
 	{
 		PageFactory.initElements(BaseClass.driver, this);
 	}
-
+//Pagge Web Elements
 
 	@FindBy(xpath="//*[contains(text(),'on your mind,')]")
 	WebElement enter_status;	
